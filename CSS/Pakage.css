@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sens-serif
+}
+ body {
+    
+    min-height: 100vh;
+    /* background: black;  */
+    /* background:rgb(98, 178, 228); */
+     /* background-image: url('\Image\fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ 
+     height: 100vh; */
+ } 
+
+
+
+.king ul{
+    padding: 10px;
+    display: inline-block;
+
+}
+.king ul li{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.king ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: darkblue;  
+    border-radius: 15px;
+}
+.king ul li a:hover,
+    .king ul li a.active{
+    background: darkblue;
+    color: #fff;
+}
+
+
+.ExplorerX {
+    font-size: 2em;
+    color: darkblue;
+    pointer-events: none;
+    text-transform:none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: double;
+}
+
+.sub-header{
+    
+    background-image: url('/Image/explorebg.jpeg');
+    
+     background-size:cover ;
+     background-repeat: no-repeat;
+     
+    width: 100%;
+     height: 100vh;
+    
+
+}   
+#text{
+    /* margin-top: 100px; */
+    text-align: center;
+    color: #0c0b0b;
+}
+.Explore{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: blue;
+}
+p{
+    text-align: center;
+    color: #110505;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.main-text h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0 1px 1px black ;
+}
+.main-text h1 span{
+    color: #ffa500;
+}
+.pakages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0 , 0, 0.1) 0px 4px 12px;
+}
+.pakages .card img{
+    border-radius: 5px;
+}
+.pakages .card .card-body{
+    background: transparent;
+}
+.pakages .card .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pakages .card .card-body p{
+font-size: 15PX;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.pakages .card .card-body h6{
+    font-size: 20px;
+}
+.pakages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: #fff;
+    border-radius: 5px;
+}
+/* 
+---------------------services-------------------------- */
+
+/* .services{
+    background: #f9f9f9ff;
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: rgba(0,0 , 0, 0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+} */

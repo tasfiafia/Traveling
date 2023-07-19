@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sens-serif
+}
+ body {
+    
+    min-height: 100vh;
+     /* background:#6a21df;
+     background-image: url('/Image/fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ 
+     height: 100vh; */
+ } 
+
+
+
+.king ul{
+    padding: 10px;
+    display: inline-block;
+
+}
+.king ul li{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.king ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+   
+    color: darkblue;  
+    border-radius: 15px;
+}
+.king ul li a:hover,
+    .king ul li a.active{
+    background: darkblue;
+    color:  #fff;
+}
+
+
+.ExplorerX {
+    font-size: 2em;
+    color:darkblue;
+    pointer-events: none;
+    text-transform:none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: double;
+}
+
+.header{
+    background-image: url('/Image/fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+
+#text{
+    position:relative;
+    color: #fff;
+    font-size: 4em;
+    z-index: 1;
+    text-align: center;
+ }
+
+ #text2{
+    position:relative;
+    color: #fff;
+    font-size: 4em;
+    z-index: 1;
+    text-align: center;
+ }
+ #text-box{
+    text-align: center;
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+ }
+ 
+ #Hero-button{
+    text-align: center;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #7597de;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}    
+#Hero-button:hover{
+    border: 2px solid #ffa500;   
+    background: #ffa500;
+    transition: 1s; 
+}
+#Hero-button{
+    border: 1px solid #ffa500;
+    background: transparent;
+    color: #ffa500;
+}
+
+#Hero-button:hover{
+    color: #fff;
+}
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Spain";}
+    20%{content: "United State";}
+    30%{content: "China";}
+    40%{content: "India";}
+    50%{content: "Pakistan";}
+    60%{content: "Italy";}
+    70%{content: "Turky";}
+    80%{content: "Maxico";}               
+    90%{content: "Germany";}
+    100%{content: "United Kingdom";}
+}
+
+#book{
+   text-align: center;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #7597de;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}    
+#book:hover{
+    border: 2px solid #ffa500;   
+    background: #ffa500;
+    transition: 1s; 
+}
+#book{
+    border: 1px solid #ffa500;
+    background: transparent;
+    color: #ffa500;
+}
+
+#book:hover{
+    color: #fff;
+}

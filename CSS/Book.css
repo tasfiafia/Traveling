@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sens-serif
+}
+ body {
+    
+    min-height: 100vh;
+     /* background:#6a21df;
+     background-image: url('/Image/fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ 
+     height: 100vh; */
+ } 
+
+
+
+.king ul{
+    padding: 10px;
+    display: inline-block;
+
+}
+.king ul li{
+    text-decoration: none;
+    left: 8px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.king ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+   
+    color: darkblue;  
+    border-radius: 15px;
+}
+.king ul li a:hover,
+    .king ul li a.active{
+    background: darkblue;
+    color:  #fff;
+}
+
+
+.ExplorerX {
+    font-size: 2em;
+    color:darkblue;
+    pointer-events: none;
+    text-transform:none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: double;
+}
+/* 
+.header{
+    background-image: url('/Image/fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+} */
+
+#book{
+    text-align: center;
+ 
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 2px solid #7597de;
+     padding: 12px 34px;
+     font-size: 13px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+ }    
+ #book:hover{
+     border: 2px solid #ffa500;   
+     background: #ffa500;
+     transition: 1s; 
+ }
+ #book{
+     border: 1px solid #ffa500;
+     background: transparent;
+     color: #ffa500;
+ }
+ 
+ #book:hover{
+     color: #fff;
+ }
+ .main-text h1{
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    font-weight: 600;
+ }
+ .main-text h1 span{
+    color: black;
+ }
+ .book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    background: black;
+    color: #fff;
+    margin-top: 10px;
+    transition: 1s;
+ }
+ .book .submit:hover{
+    width: 170px;
+ }

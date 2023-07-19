@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sens-serif
+}
+ body {
+    
+    min-height: 100vh;
+    /* background: black;  */
+    background:rgb(3, 59, 94);
+     /* background-image: url('\Image\fuji.jpeg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+ 
+     height: 100vh; */
+ } 
+
+
+
+.king ul{
+    padding: 10px;
+    display: inline-block;
+
+}
+.king ul li{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.king ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;  
+    border-radius: 15px;
+}
+.king ul li a:hover,
+    .king ul li a.active{
+    background: #fff;
+    color: black;
+}
+
+
+.ExplorerX {
+    font-size: 2em;
+    color: #fff;
+    pointer-events: none;
+    text-transform:none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: double;
+}
+ /* - - - - - - -  -About us page -  - - - - -   */
+
+.sub-header{
+    
+    background-image: url('/Image/aboutbg.jpeg');
+    
+     background-size:cover ;
+     background-repeat: no-repeat;
+     
+    width: 100%;
+     height: 100vh;
+    
+
+}   
+#text{
+    /* margin-top: 100px; */
+    text-align: center;
+    color: #fff;
+
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+    color: #fff;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    color: #fff;
+}
+#Hero-button{
+    text-align: center;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #7597de;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}    
+#Hero-button:hover{
+    border: 2px solid #f44336;   
+    background: #f44336;
+    transition: 1s; 
+}
+#Hero-button{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+#Hero-button:hover{
+    color: #fff;
+}
